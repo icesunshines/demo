@@ -64,6 +64,3 @@ npm run preview
 - [ ] 后端基础架构 (Nitro / Server API) 连接并实现真实的登录校验与用户管理。
 - [ ] 文章的数据库增删改查实现。
 =======
-# demo
-走一遍GitHub流程
->>>>>>> 387dd9bb8d40864b5f90fa00d8188e84b6d7f065
