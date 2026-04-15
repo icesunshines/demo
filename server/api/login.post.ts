@@ -10,6 +10,7 @@ const generateToken = (username: string) => {
     const token = crypto.createHash('sha256').update(payload + secret).digest('hex')
     // Token 拼接有效期
     return `${token}_${Date.now() + 1000 * 60 * 60 * 24 * 7}` // 7天有效期
+    
 }
 
 export const verifyToken = (token: string) => {
